@@ -40,7 +40,7 @@ app.use("/fwm-software-downloads/",express.static(__dirname + "/public"));
 app.use(morgan('combined'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-// app.use(flash());
+app.use(flash());
 
 
 
