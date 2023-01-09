@@ -53,8 +53,8 @@ app.use(function (req, res, next) {
 });
 
 const publicRoutes = require('./controllers/main');
-const privatesRoutes = require('./controllers/private');
-const adminRoutes = require('./controllers/admin');
+// const privatesRoutes = require('./controllers/private');
+// const adminRoutes = require('./controllers/admin');
 
 
 app.use(publicRoutes);
